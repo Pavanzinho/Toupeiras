@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.pageContainer {
+    height: 100%;
+}
+
+.pageContainer main {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-image: url(assets/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 250px;
+}
+
+
+.holesContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.holeLine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 168px;
+}
+
+.holeLine img {
+    position: absolute;
+}
+
+.uniqueHoleContainer{
+    width: 222px;
+    height: 169px;
+}
+
+
+.toupeira1,
+.toupeira2,
+.toupeira3,
+.toupeira4,
+.toupeira5,
+.toupeira6 {
+    opacity: 0;
+    animation-duration: 1s;
+
+}
+
+
+.toupeira1 {
+    animation-name: changingOpacity1;
+}
+
+.toupeira2 {
+    animation-name: changingOpacity2;
+}
+
+.toupeira3 {
+    animation-name: changingOpacity3;
+}
+
+.toupeira4 {
+    animation-name: changingOpacity4;
+}
+
+.toupeira5 {
+    animation-name: changingOpacity5;
+}
+
+.toupeira6 {
+    animation-name: changingOpacity6;
+}
+
+
+@keyframes changingOpacity1 {
+    0% {
+        opacity: 0;
+    }
+
+    16.6% {
+        opacity: 1;
+    }
+
+    32% {
+        opacity: 0;
+    }
+
+    48% {
+        opacity: 0;
+    }
+
+    64% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes changingOpacity2 {
+    0% {
+        opacity: 0;
+    }
+
+    16.6% {
+        opacity: 0;
+    }
+
+    32% {
+        opacity: 1;
+    }
+
+    48% {
+        opacity: 0;
+    }
+
+    64% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes changingOpacity3 {
+    0% {
+        opacity: 0;
+    }
+
+    16.6% {
+        opacity:0 ;
+    }
+
+    32% {
+        opacity: 0;
+    }
+
+    48% {
+        opacity: 1;
+    }
+
+    64% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes changingOpacity4 {
+    0% {
+        opacity: 0;
+    }
+
+    16.6% {
+        opacity:0 ;
+    }
+
+    32% {
+        opacity: 0;
+    }
+
+    48% {
+        opacity: 0;
+    }
+
+    64% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes changingOpacity5 {
+    0% {
+        opacity: 0;
+    }
+
+    16.6% {
+        opacity:0 ;
+    }
+
+    32% {
+        opacity: 0;
+    }
+
+    48% {
+        opacity: 0;
+    }
+
+    64% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+
+    100% {
+        opacity: 0;
+    }
+}
